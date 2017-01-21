@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+    <title>Application Form</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="page-header">
+      <h1>The Only Website You'll Ever Need. <small>Ever.</small></h1>
+    </div>
+    <p>Everything your heart could ever desire can be found on this site. Please assist us in serving you by filling out the following form.</p>
+  <form action="/application-success" method="POST">
+    <div>
+      <label for="firstname">First Name:</label>
+      <input id="firstname" type="text" name="firstname"><br>
+    </div>
+    <div>
+      <label for="lastname"><b>Last Name:</b></label>
+      <input id="lastname" type="text" name="lastname"><br>
+    </div>
+    <div>
+      <label for="salary-req">Salary Requirement:</label>
+      <input id="salary-req" type="text" name="salary-requirement"><br>
+    </div>
+    <div>
+      <label for="position" >For which position are you applying?</label>
+      <select id="position" class="position">
+      <option>Software Engineer</option>
+      <option>QA Engineer</option>
+      <option>Product Manager</option>
+      </select>
+    </div>  
+    <input type="submit" ></input>
+
+  </form>
+
+
+</body>
+</html>
